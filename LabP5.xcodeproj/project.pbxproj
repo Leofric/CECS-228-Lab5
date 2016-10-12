@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC5C67031DAC278800FA269D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC5C67021DAC278800FA269D /* main.cpp */; };
+		CC5C670B1DAC27A400FA269D /* Student.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC5C67091DAC27A400FA269D /* Student.cpp */; };
+		CC5C670E1DAC282100FA269D /* myDate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC5C670C1DAC282100FA269D /* myDate.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC5C66FD1DAC278800FA269D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC5C66FF1DAC278800FA269D /* LabP5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LabP5; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5C67021DAC278800FA269D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CC5C67091DAC27A400FA269D /* Student.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Student.cpp; sourceTree = "<group>"; };
+		CC5C670A1DAC27A400FA269D /* Student.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		CC5C670C1DAC282100FA269D /* myDate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = myDate.cpp; path = ../../../Project2/Project2/myDate.cpp; sourceTree = "<group>"; };
+		CC5C670D1DAC282100FA269D /* myDate.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = myDate.hpp; path = ../../../Project2/Project2/myDate.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5C66FC1DAC278800FA269D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC5C66F61DAC278800FA269D = {
+			isa = PBXGroup;
+			children = (
+				CC5C67011DAC278800FA269D /* LabP5 */,
+				CC5C67001DAC278800FA269D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5C67001DAC278800FA269D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5C66FF1DAC278800FA269D /* LabP5 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5C67011DAC278800FA269D /* LabP5 */ = {
+			isa = PBXGroup;
+			children = (
+				CC5C67021DAC278800FA269D /* main.cpp */,
+				CC5C670C1DAC282100FA269D /* myDate.cpp */,
+				CC5C670D1DAC282100FA269D /* myDate.hpp */,
+				CC5C67091DAC27A400FA269D /* Student.cpp */,
+				CC5C670A1DAC27A400FA269D /* Student.hpp */,
+			);
+			path = LabP5;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5C66FE1DAC278800FA269D /* LabP5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5C67061DAC278800FA269D /* Build configuration list for PBXNativeTarget "LabP5" */;
+			buildPhases = (
+				CC5C66FB1DAC278800FA269D /* Sources */,
+				CC5C66FC1DAC278800FA269D /* Frameworks */,
+				CC5C66FD1DAC278800FA269D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LabP5;
+			productName = LabP5;
+			productReference = CC5C66FF1DAC278800FA269D /* LabP5 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5C66F71DAC278800FA269D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alex Berthon";
+				TargetAttributes = {
+					CC5C66FE1DAC278800FA269D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC5C66FA1DAC278800FA269D /* Build configuration list for PBXProject "LabP5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC5C66F61DAC278800FA269D;
+			productRefGroup = CC5C67001DAC278800FA269D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5C66FE1DAC278800FA269D /* LabP5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5C66FB1DAC278800FA269D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5C670E1DAC282100FA269D /* myDate.cpp in Sources */,
+				CC5C67031DAC278800FA269D /* main.cpp in Sources */,
+				CC5C670B1DAC27A400FA269D /* Student.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC5C67041DAC278800FA269D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CC5C67051DAC278800FA269D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CC5C67071DAC278800FA269D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC5C67081DAC278800FA269D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5C66FA1DAC278800FA269D /* Build configuration list for PBXProject "LabP5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5C67041DAC278800FA269D /* Debug */,
+				CC5C67051DAC278800FA269D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5C67061DAC278800FA269D /* Build configuration list for PBXNativeTarget "LabP5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5C67071DAC278800FA269D /* Debug */,
+				CC5C67081DAC278800FA269D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5C66F71DAC278800FA269D /* Project object */;
+}
